@@ -17,19 +17,23 @@ const Nav = () => {
           <li className='text-[17px] font-semibold cursor-pointer text-yellow-300'>
             <Link href="/">Home</Link>
           </li>
-          <li className='text-[17px] font-semibold cursor-pointer text-white hover:text-yellow-400'>
+          <li className='text-[17px] font-semibold cursor-pointer transition-all duration-200 text-white hover:text-yellow-400'>
             <Link href="/About">About</Link>
           </li>
-          <li className='text-[17px] font-semibold cursor-pointer text-white hover:text-yellow-400'>
+          <li className='text-[17px] font-semibold cursor-pointer transition-all duration-200 text-white hover:text-yellow-400'>
             <Link href="/Investment">Investment</Link>
           </li>
-          <li className='text-[17px] font-semibold cursor-pointer text-white hover:text-yellow-400'>
+          <li className='text-[17px] font-semibold cursor-pointer transition-all duration-200 text-white hover:text-yellow-400'>
             <Link href="/Services">Services</Link>
           </li>
-          <li className='text-[17px] font-semibold cursor-pointer text-white hover:text-yellow-400'>
+          <li className='text-[17px] font-semibold cursor-pointer transition-all duration-200 text-white hover:text-yellow-400'>
             <Link href="/Contact">Contact</Link>
           </li>
         </ul>
+        {/* Login Button */}
+        <div className='flex items-center space-x-4'>
+          <button className='rounded px-10 py-2.5 overflow-hidden group bg-yellow-500 '></button>
+        </div>
       </div>
     </div>
   )
