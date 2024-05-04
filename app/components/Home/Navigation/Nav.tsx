@@ -2,7 +2,14 @@ import Link from 'next/link'
 import React from 'react'
 import { FaBars } from 'react-icons/fa'
 
-const Nav = () => {
+
+
+//props type
+type Props ={
+  openNav:()=> void
+}
+
+const Nav = ({openNav}:Props) => {
   return (
     <div className='h-[12vh] bg-[#62269d] shadow-md'>
       <div className='w-[85%] flex items-center justify-between mx-auto h-[12vh]'>
@@ -42,7 +49,7 @@ const Nav = () => {
             <span className='relative'>Login</span>
            </button>
            {/* menu button */}
-           <FaBars className='w-8 h-8 cursor-pointer text-white lg:hidden'/>
+           <FaBars onClick={openNav} className='w-8 h-8 cursor-pointer text-white lg:hidden'/>
         </div>
       </div>
     </div>
