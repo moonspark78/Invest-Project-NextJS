@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import { FaBars } from 'react-icons/fa'
 
 const Nav = () => {
   return (
@@ -40,6 +41,8 @@ const Nav = () => {
             </span>
             <span className='relative'>Login</span>
            </button>
+           {/* menu button */}
+           <FaBars className='w-8 h-8 cursor-pointer text-white lg:hidden'/>
         </div>
       </div>
     </div>
