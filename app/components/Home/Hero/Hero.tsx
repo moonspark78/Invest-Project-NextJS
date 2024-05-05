@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import HeroImage from "@/public/images/hero.png"
 
 const Hero = () => {
   return (
@@ -26,10 +27,12 @@ const Hero = () => {
                     />
                 </div>
                 {/* submit button */}
+                <button className='px-4 py-2 w-[40%] bg-blue-500 hover:bg-blue-700 transition-all
+                duration-150 rounded-full mt-4 text-white'>Submit</button>
             </div>
             {/* Image div */}
-            <div className='col-span-3'>
-                <Image src="" alt='icon-hero'/>
+            <div className='col-span-3 hidden sm:block mx-auto'>
+                <Image src={HeroImage} alt='icon-hero' priority/>
             </div>
         </div> 
     </div>
