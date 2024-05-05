@@ -13,12 +13,25 @@ const Hero = () => {
                 md:leading-[4rem]'>
                     100% Secure <span className='text-yellow-300'>Investment</span> Plan
                 </h1>
+                <p className='md:text-[17px] text-[15px] mb-8 text-white opacity-90 font-normal'>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Amet distinctio fugiat optio non aliquid minus id perspiciatis placeat autem iusto
+                </p>
+                {/* input box */}
+                <div className='w-full h-14 relative rounded-full bg-blue-950'>
+                    <input 
+                        type="text" 
+                        placeholder='Enter your mail' 
+                        className='bg-transparent h-full ml-8 text-white outline-none w-[90%]'
+                    />
+                </div>
+                {/* submit button */}
             </div>
             {/* Image div */}
             <div className='col-span-3'>
                 <Image src="" alt='icon-hero'/>
             </div>
-        </div>
+        </div> 
     </div>
   )
 }
