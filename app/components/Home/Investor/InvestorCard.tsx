@@ -1,8 +1,19 @@
 import React from 'react'
 
-const InvestorCard = () => {
+
+type Props = {
+    image: string;
+    invest: string;
+    name: string;
+}
+
+
+
+const InvestorCard = ({invest,image,name}:Props) => {
   return (
-    <div>InvestorCard</div>
+    <div className='bg-blue-900 p-6'>
+        {/* Image */}
+    </div>
   )
 }
 
