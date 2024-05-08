@@ -1,4 +1,4 @@
-
+"use client";
 import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -27,7 +27,19 @@ const ReviewSlider = () => {
 
 
   return (
-    <div>ReviewSlider</div>
+    <Carousel
+        additionalTransfrom={0}
+        arrows={true}
+        autoPlay={true}
+        autoPlaySpeed={5000}
+        centerMode={false}
+        infinite
+        responsive={responsive}
+        itemClass="item"
+    >
+
+        <div></div>
+    </Carousel>
   )
 }
 
