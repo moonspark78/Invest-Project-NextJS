@@ -13,6 +13,18 @@ const Investor = () => {
             <div>
                 <InvestorCard image="/images/i1.jpg" invest="29034295" name="John"/>
             </div>
+            {/* Investor Profile 2 */}
+            <div>
+                <InvestorCard image="/images/i2.jpg" invest="39032805" name="Alice"/>
+            </div>
+            {/* Investor Profile 3 */}
+            <div>
+                <InvestorCard image="/images/i3.jpg" invest="16934295" name="Zac"/>
+            </div>
+            {/* Investor Profile 4 */}
+            <div>
+                <InvestorCard image="/images/i4.jpg" invest="49079425" name="Ali"/>
+            </div>
         </div>
     </div>
   )
