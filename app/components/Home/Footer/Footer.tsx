@@ -16,7 +16,30 @@ const Footer = () => {
                     Vestor
                 </h1>
                 <p className='text-white mt-2 text-opacity-60'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum, dolor amet consectetur adipisicing.
+                </p>
+                <p className='mt-4 text-white'>support@gmail.com</p>
+                <p className='text-red-300 text-md font-bold mt-2'>+(33) 59 59 59 59</p>
+            </div>
+            {/* 2part footer */}
+            <div className='lg:mx-auto mx-0'>
+                <h1 className='text-[17px] text-white font-semibold mb-6'>
+                    Company
+                </h1>
+                <p className='text-white opacity-80 mb-4 text-[15px] cursor-pointer hover:text-yellow-300 border-b-2 border-dashed'>
+                    About
+                </p>
+                <p className='text-white opacity-80 mb-4 text-[15px] cursor-pointer hover:text-yellow-300 border-b-2 border-dashed'>
+                    Affiliate
+                </p>
+                <p className='text-white opacity-80 mb-4 text-[15px] cursor-pointer hover:text-yellow-300 border-b-2 border-dashed'>
+                    Careers & Culture
+                </p>
+                <p className='text-white opacity-80 mb-4 text-[15px] cursor-pointer hover:text-yellow-300 border-b-2 border-dashed'>
+                    Blog
+                </p>
+                <p className='text-white opacity-80 mb-4 text-[15px] cursor-pointer hover:text-yellow-300 border-b-2 border-dashed'>
+                    Press
                 </p>
             </div>
         </div>
