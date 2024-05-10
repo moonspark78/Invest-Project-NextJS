@@ -13,6 +13,14 @@ const Blog = () => {
             <div>
                 <BlogCard image="/images/b1.jpg" title="10 Reason to Invest for you future"/>
             </div>
+            {/* Grid Component 2 */}
+            <div>
+                <BlogCard image="/images/b2.jpg" title="7 Reason to Invest for you future"/>
+            </div>
+            {/* Grid Component 3 */}
+            <div>
+                <BlogCard image="/images/b3.jpg" title="5 Reason to Invest for you future"/>
+            </div>
         </div>
     </div>
   )
