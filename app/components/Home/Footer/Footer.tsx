@@ -42,7 +42,51 @@ const Footer = () => {
                     Press
                 </p>
             </div>
+              {/* 3part footer */}
+            <div className='lg:mx-auto mx-0'>
+                <h1 className='text-[17px] text-white font-semibold mb-6'>
+                    Our Information
+                </h1>
+                <p className='text-white opacity-80 mb-4 text-[15px] cursor-pointer hover:text-yellow-300 border-b-2 border-dashed'>
+                    Return Policy
+                </p>
+                <p className='text-white opacity-80 mb-4 text-[15px] cursor-pointer hover:text-yellow-300 border-b-2 border-dashed'>
+                    Privacy Policy
+                </p>
+                <p className='text-white opacity-80 mb-4 text-[15px] cursor-pointer hover:text-yellow-300 border-b-2 border-dashed'>
+                    Terms & Condition
+                </p>
+                <p className='text-white opacity-80 mb-4 text-[15px] cursor-pointer hover:text-yellow-300 border-b-2 border-dashed'>
+                    Site Map
+                </p>
+                <p className='text-white opacity-80 mb-4 text-[15px] cursor-pointer hover:text-yellow-300 border-b-2 border-dashed'>
+                    Store Hours
+                </p>
+            </div>
+            {/* 4part footer */}
+            <div className='lg:mx-auto mx-0'>
+                <h1 className='text-[17px] text-white font-semibold mb-6'>
+                    About Us
+                </h1>
+                <p className='text-white opacity-80 mb-4 text-[15px] cursor-pointer hover:text-yellow-300 border-b-2 border-dashed'>
+                    Support Center
+                </p>
+                <p className='text-white opacity-80 mb-4 text-[15px] cursor-pointer hover:text-yellow-300 border-b-2 border-dashed'>
+                    Customer Support
+                </p>
+                <p className='text-white opacity-80 mb-4 text-[15px] cursor-pointer hover:text-yellow-300 border-b-2 border-dashed'>
+                    About Us
+                </p>
+                <p className='text-white opacity-80 mb-4 text-[15px] cursor-pointer hover:text-yellow-300 border-b-2 border-dashed'>
+                    Copyright
+                </p>
+                <p className='text-white opacity-80 mb-4 text-[15px] cursor-pointer hover:text-yellow-300 border-b-2 border-dashed'>
+                    Popular Campaign
+                </p>
+            </div>
         </div>
+        {/* copyright */}
+        <div className='w-4/5 mx-auto text-[15px] text-white opacity-75 mt-2'>Copyright © 2024 by Souli</div>
     </div>
   )
 }
